@@ -54,7 +54,11 @@ Classe principal que gerencia:
 
 ## 🚀 Como Executar
 
-1. **Clone o repositório:**
+**Clone o repositório:**
    ```bash
    git clone https://github.com/Antonio-Farias-Neto/Sistema_Prw-project.git
    cd Sistema_Prw-project
+   
+# Author
+- Antonio Neto [GitHub](https://www.github.com/Antonio-Farias-Neto)
+- projeto feito nas aulas de programação da UFCG.
