@@ -3,12 +3,21 @@ package sistema_prw;
 import java.util.ArrayList;
 import java.util.Objects;
 
+/**
+ * representação de um restaurante com nome, visitantes, prato e votos a serem recebidos.
+ * @author Antonio Neto
+ */
 public class Restaurante {
 	private String nome;
 	private String pratoEscolhido;
 	private int qtdVotos;
 	private ArrayList<Cliente> clientesVisitantes = new ArrayList<>();
 	
+	/**
+	 * Cria um restaurante
+	 * @param nome é o nome do restaurante
+	 * @param prtEscolhido é o prato a ser escolhido como prato desse restaurante.
+	 */
 	public Restaurante(String nome, String prtEscolhido) {
 		this.nome = nome;
 		this.pratoEscolhido = prtEscolhido;
@@ -36,6 +45,10 @@ public class Restaurante {
 		return this.pratoEscolhido;
 	}
 	
+	/**
+	 * Adiciona um cliente a lista de visitantes do restaurante
+	 * @param cli é o cliente a ser adicionado
+	 */
 	public void adicionaVisitante(Cliente cli) {
 		this.clientesVisitantes.add(cli);
 	}
@@ -52,6 +65,9 @@ public class Restaurante {
 		return this.qtdVotos;
 	}
 	
+	/**
+	 * adiciona um voto ao atributo de votos do restaurante.
+	 */
 	public void adicionaVoto() {
 		this.qtdVotos++;
 	}
