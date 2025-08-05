@@ -58,6 +58,7 @@ Classe principal que gerencia:
    ```bash
    git clone https://github.com/Antonio-Farias-Neto/Sistema_Prw-project.git
    cd Sistema_Prw-project
+   ```
    
 # Author
 - Antonio Neto [GitHub](https://www.github.com/Antonio-Farias-Neto)
