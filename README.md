@@ -4,7 +4,7 @@ Um sistema simples de gerenciamento de restaurantes e clientes, desenvolvido em 
 
 ## 📌 Sobre o Projeto
 
-O **Sistema PRW** é uma aplicação console escrita em Java que simula a interação entre clientes e restaurantes. Os clientes podem visitar restaurantes, votar em seus pratos preferidos, e o sistema é capaz de identificar o prato mais votado.
+O **Sistema PRW** é uma aplicação console escrita em Java que simula a interação entre clientes e restaurantes. Os clientes podem visitar restaurantes, votar em seus pratos preferidos, e o sistema é capaz de identificar o prato mais votado(Melhor prato).
 
 ---
 
