@@ -45,7 +45,7 @@ Representa um restaurante com:
 
 ### `SistemaPrw.java`
 
-Classe principal que gerencia:
+Classe principal (Controller) que gerencia:
 - Cadastro de clientes e restaurantes
 - Visitação e votação
 - Retorno de informações agregadas (melhor prato, clientes por restaurante)
